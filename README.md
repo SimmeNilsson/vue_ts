@@ -1,10 +1,11 @@
-.vue.ts file extension in logs prevent VS Code from letting the programmer click the error line and end up at the right place.
+# appendTsSuffixTo error log problem
+.vue.ts file extension when appearing in logs prevent VS Code from letting the programmer click the error line and end up at the right place.
 
-To run
+## To run
 yarn
 yarn build
 
-Output
+## Output
 ERROR in C:\DeveloperArea\Troubleshooting\vue_ts\MyComponent.vue.ts
 12:12-18
 [tsl] ERROR in C:\DeveloperArea\Troubleshooting\vue_ts\MyComponent.vue.ts(12,13)
